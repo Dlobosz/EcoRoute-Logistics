@@ -1,18 +1,45 @@
 {
+    "camiones": [
+        {
+            "id": "C-01",
+            "modelo": "Camión Eléctrico",
+            "patente": "EV-99-XX",
+            "estado": "En Ruta"
+        },
+        {
+            "id": "C-02",
+            "modelo": "Furgón Híbrido",
+            "patente": "HB-44-YY",
+            "estado": "En Ruta"
+        },
+        {
+            "id": "C-03",
+            "modelo": "Camión Diésel pesada",
+            "patente": "DS-11-ZZ",
+            "estado": "En Mantenimiento"
+        }
+    ],
     "envios": [
         {
             "id": "001",
             "destino": "Punta Arenas",
-            "estado": "En Bodega",
-            "carga": "Frigor\u00edfica",
+            "estado": "En Ruta",
+            "carga": "Frigorífica",
             "co2_ahorro": 120
         },
         {
             "id": "002",
             "destino": "Puerto Montt",
-            "estado": "En Bodega",
+            "estado": "En Ruta",
             "carga": "General",
             "co2_ahorro": 85
+        },
+        {
+            "id": "003",
+            "destino": "Valdivia",
+            "estado": "En Bodega",
+            "carga": "Peligrosa",
+            "co2_ahorro": 40
         }
     ],
     "alertas_clima": []
