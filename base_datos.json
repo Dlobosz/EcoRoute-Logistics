@@ -1,0 +1,19 @@
+{
+    "envios": [
+        {
+            "id": "001",
+            "destino": "Punta Arenas",
+            "estado": "En Bodega",
+            "carga": "Frigor\u00edfica",
+            "co2_ahorro": 120
+        },
+        {
+            "id": "002",
+            "destino": "Puerto Montt",
+            "estado": "En Bodega",
+            "carga": "General",
+            "co2_ahorro": 85
+        }
+    ],
+    "alertas_clima": []
+}
